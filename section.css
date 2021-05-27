@@ -1,0 +1,279 @@
+@font-face {
+    font-family: ninja;
+    src: url("Ninja\ Attack.ttf");
+}
+@font-face {
+    font-family: virus;
+    src: url("No\ Virus.ttf");
+}
+@font-face {
+    font-family: sweet;
+    src: url("Sweet\ Talk.otf")
+}
+@font-face {
+    font-family: as;
+    src: url("Asdonuts.ttf");
+}
+@font-face {
+    font-family: kg;
+    src: url("KGHAPPY.ttf");
+}
+@font-face {
+    font-family: br;
+    src: url("Brightly\ Crush\ Shine.otf");
+}
+
+.image_box{
+    justify-content: center;
+    display: flex;
+}
+.first{
+    background-color: gainsboro;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+    background-image: url(github_logo_png.png);
+    background-repeat: no-repeat;
+    background-size: 80% 40%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.second{
+    background-color: skyblue;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+    background-image: url(baekjoon_logo.png);
+    background-repeat: no-repeat;
+    background-size: 75% 40%; 
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.third{
+    background-color: greenyellow;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+    background-image: url(solvedac_logo.svg);
+    background-repeat: no-repeat;
+    background-size: 85% 50%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+.fourth{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 800px;
+    text-align: center;
+    background-image: url(study_logo.png);
+    background-repeat: no-repeat;
+    background-size: 65% 35%;
+    background-position: bottom;
+    background-attachment: scroll;
+}
+
+.space{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.space img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    /* border-radius: 150px; */
+}
+.space1{
+    justify-content: center;
+    text-align: center;
+
+}
+.space2{
+    justify-content: center;
+    text-align: center;
+
+}
+
+.introduce_top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+}
+.profile{
+    background-color: plum;
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 15px;
+    font-family: kg;
+}
+.profile:hover{
+    transform: scale(0.98);
+    background-color: gray;
+}
+.profile h1 {
+    font-family: br;
+    font-size: 30px;
+}
+.career{
+    background-color: hotpink;
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 15px;
+    font-family: kg;
+}
+.career:hover{
+    transform: scale(0.98);
+    background-color: gray;
+}
+.career h1 {
+    font-family: br;
+    font-size: 30px;
+}
+.introduce_bot{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.introduce{
+    background-color: khaki;
+    width: 1230px;
+    height: 300px;
+    border-radius: 50px;
+    margin: 5px;
+    margin-bottom: 30px;
+    font-family: kg;
+}
+.introduce:hover{
+    transform: scale(0.98);
+    background-color: gray;
+}
+.introduce h1 {
+    font-family: br;
+    font-size: 30px;
+}
+
+.contact_box{
+    justify-content: center;
+    display: flex;
+}
+.contact{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: gray;
+    font-family: kg;
+}
+.contact a{
+    text-decoration: none;
+    color: skyblue;
+}
+.contact h1{
+    color:white;
+    font-family: br;
+    font-size: 30px;
+}
+
+.github_top{
+    background-color: gainsboro;
+    width: 100%;
+    height: 950px;
+}
+.github_go{
+    display: flex;
+    justify-content: center;
+}
+.github_go img{
+    width: 1830px;
+    height: 830px;
+    margin-top: 100px;
+}
+
+.baekjoon_top{
+    background-color: skyblue;
+    width: 100%;
+    height: 950px;
+}
+.baekjoon_go{
+    display: flex;
+    justify-content: center;
+}
+.baekjoon_go img{
+    width: 1830px;
+    height: 830px;
+    margin-top: 100px;
+}
+
+.solvedac_content iframe{
+    width: 100%;
+    height: 1620px;
+    border: none;
+}
+
+.study_content{
+    background-image: url(sky_photo.jpg);
+}
+
+.study_top{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.study1{
+    background-color: yellowgreen;
+    width: 700px;
+    height: 400px;
+    margin: 15px;
+}
+.study1 iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.study2{
+    background-color: sandybrown;
+    width: 700px;
+    height: 400px;
+    margin: 15px;
+}
+.study2 iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.study_bot{
+    display: flex;
+    justify-content: center;
+}
+.study3{
+    background-color: darkorchid;
+    width: 700px;
+    height: 400px;
+    margin: 15px;
+}
+.study3 iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.study4{
+    background-color: lightpink;
+    width: 700px;
+    height: 400px;
+    margin: 15px;
+}
+.study4 iframe{
+    width: 560px;
+    height: 315px;
+    margin-top: 45px;
+    margin-left: 70px;
+}

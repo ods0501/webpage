@@ -1,0 +1,76 @@
+@font-face {
+    font-family: ninja;
+    src: url("Ninja\ Attack.ttf");
+}
+@font-face {
+    font-family: virus;
+    src: url("No\ Virus.ttf");
+}
+@font-face {
+    font-family: sweet;
+    src: url("Sweet\ Talk.otf")
+}
+@font-face {
+    font-family: as;
+    src: url("Asdonuts.ttf");
+}
+@font-face {
+    font-family: kg;
+    src: url("KGHAPPY.ttf");
+}
+@font-face {
+    font-family: br;
+    src: url("Brightly\ Crush\ Shine.otf");
+}
+
+.top_bar{
+    height: 90px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: ninja;
+    font-size: 25px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+.top_bar *{
+    margin: 0;
+    padding: 0;
+}
+.top_bar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top_bar li:after{
+    display: block;
+    content: '';
+    border-bottom: solid 3px black;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.top_bar li:hover:after{
+    transform: scaleX(1);
+}
+
+
+.top_bar ul, li {
+    list-style: none;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.menu{
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
